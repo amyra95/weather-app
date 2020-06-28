@@ -1,0 +1,44 @@
+.container {
+  font-family: "Oswald", sans-serif;
+}
+.wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 45px;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 60%);
+  border-radius: 15px;
+}
+
+i {
+  font-size: 125px;
+  margin-bottom: 50px;
+  color: #9498a6;
+}
+h1 {
+  color: #2c3740;
+}
+h3 {
+  color: #2c3740;
+  float: right;
+  margin-right: 30px;
+}
+h2 {
+  color: #5d6473;
+}
+ul {
+  float: right;
+  margin-right: 40px;
+}
+li {
+  font-weight: 300;
+  font-size: 20px;
+  color: #9498a6;
+  list-style: none;
+}
+footer {
+  color: #f2f2f2;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 25px;
+}
