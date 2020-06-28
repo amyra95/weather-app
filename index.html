@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <script src="https://kit.fontawesome.com/aaf43d3442.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Final Project</title>
   </head>
   <body>
@@ -19,8 +20,7 @@
       <div class="wrap">
         <div class="row">
           <div class="col-6">
-            <h1>
-             San Antonio, TX
+            <h1 id="city">
             </h1>
           </div>
           <div class="col-6">
@@ -31,26 +31,33 @@
       </div>
       <div class="row">
           <div class="col-6">
-            <h2>
-              Partly Cloudy 86&#176F | &#176C
-            </h2>
+            <h4 id="description">
+          
+            </h4>
            </div>
           <div class="col-6">
-            <ul>
-              <li>
-              Precipitation: 15%
-              </li>
-              <li>
-              Humidity: 64%
-              </li>
-              <li>
-              Wind: 16mph
-              </li>
-            </ul>
+            <h2>
+            <span id="temperature"></span> <small class="unit">&#176C | &#176F</small>
+            </h2>
           </div>
+          
       </div>
-      
+      <div class="row">
+        <div class="col-6">
         <i class="fas fa-cloud-sun"></i>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li>
+              Humidity: 64%
+            </li>
+            <li>
+              Wind: 16mph
+            </li>
+          </ul>
+        </div>
+      </div>
+        
        
       <footer>
         <a href="https://github.com/amyra95/weather-app" target="_blank">Open-source code</a> by Amyra Reyes
